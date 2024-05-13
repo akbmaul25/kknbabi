@@ -188,6 +188,7 @@ body {
 .title-content {
     font-family: "Sofia", cursive;
     color: #fff;
+    margin-left: 40px;
 }
 
 .title-container {
@@ -260,6 +261,7 @@ body {
     font-family: "Sofia", cursive;
     margin-top: 40px;
     color: #fff;
+    margin-left: 40px;
 }
 
 .title-container-1 {
