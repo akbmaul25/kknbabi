@@ -435,3 +435,61 @@ body {
     font-family: "Sofia", cursive;
     color: #fff;
 }
+
+/* Anggota */
+
+.opacity-anggota {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('img/anggota.JPG');
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.opacity-anggota::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+} 
+
+.title-content-anggota {
+    font-family: "Sofia", cursive;
+    color: #fff;
+    text-align: center;
+
+}
+
+.kormanit-1 {
+    height: 150px;
+    width: 150px;
+    background-image: url('img/tespp.jpg');
+    background-size: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    opacity: 0.8;
+    border: 1px solid #999;
+    border-radius: 10px; 
+}
+
+.kormasit-1 {
+    height: 150px;
+    width: 150px;
+    background-image: url('img/tespp.jpg');
+    background-size: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding: 20px;
+    opacity: 0.8;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
